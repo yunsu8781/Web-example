@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./example_1.css">
+    <title>마지막 테스트</title>
+</head>
+<body>
+    <script src="./example.js"></script>
+
+    <header>
+        <img src="images.png" alt="아무이미지">
+        <h1>HTML, CSS 마지막 실습하기</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="">홈</a>
+            </li>
+            <li>
+                <a href="https://www.google.co.kr/">구글링하기</a>
+            </li>
+            <li>
+                <a id="login_link" href="">로그인</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section>
+
+        <div class="section1">    
+            <h2>오늘의 시간표</h2>
+            <table border="1">
+                <tr>
+                    <td></td>
+                    <th>5월 17일 화요일</th>
+                </tr>
+                <tr>
+                    <th>1교시</th>
+                    <td>HTML코드작성</td>
+                </tr>
+                <tr>
+                    <th>2교시</th>
+                    <td>CSS코드작성</td>
+                </tr>
+                <tr>
+                    <th>3교시</th>
+                    <td rowspan="2">화면완성하기</td>
+                </tr>
+                <tr>
+                    <th>4교시</th>
+                </tr>
+                <tr>
+                    <th colspan="2">점심시간</th>
+                </tr>
+                <tr>
+                    <th>5교시</th>
+                    <td rowspan="2">javascript 공부</td>
+                </tr>
+                <tr>
+                    <th>6교시</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="section2">     
+            <h2>회원가입</h2>
+            <form action="">
+                <label for="id">아이디</label>
+                <input type="text" id="id" required placeholder="아이디를 입력하세요">
+    
+                <label for="pw">비밀번호</label>
+                <input type="password" id="pw" required placeholder="비밀번호를 입력하세요">
+                
+                <button>제출</button>
+            </form>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>천예지에 의해 2022 5월 17일작성됨</p>
+    </footer>
+
+
+</body>
+</html>
